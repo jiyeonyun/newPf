@@ -15,9 +15,11 @@ function App() {
     <div className={styles.app}>
     <Header/>
     {/* <Main/> */}
-    <About/>
-    {/* <Skills/>
+    {/* <About/> */}
+    {/* <Skills/> */}
+    
     <Work/>
+    {/*
     <Contact/>
     <Footer/> */}
     <div className={styles.miniMenu}>

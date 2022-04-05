@@ -1,5 +1,49 @@
+.section{
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .menutitle{
     color: rgb(255, 255, 255);
     text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
     font-size: 2.3rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 1em;
+}
+.subtitle{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+.li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3rem 5rem 3rem;
+}
+.icon{
+    font-size: 6.5rem;
+    padding: 0;
+    margin: 0;
+}
+.span{
+    margin-top: 1.4rem;
+    font-weight: 500;
+    display: block;
+    text-align: center;
 }
