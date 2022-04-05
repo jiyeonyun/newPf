@@ -12,7 +12,7 @@ const Main = (props) => {
                 PORTFOLIO
             </h3>
             <div className={styles.imgWrap}>
-                <img src="" alt="" />
+                <img className={styles.img} src="./img/header.png" alt="" />
             </div>
             <p className={styles.mainDesc}>
                 성실함을 이기는 것은 없습니다. <br/>

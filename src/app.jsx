@@ -10,7 +10,6 @@ import Work from './components/work/work';
 function App() {
   return (
     <>
-   
     <Header/>
     <Main/>
     <About/>

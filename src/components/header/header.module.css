@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerTitle::before{
+    content: "";
+    width: 2rem;
+    height: 0.2rem;
+    margin-bottom: 0.4rem;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+}
+.navItem{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.navItem:hover{
+    color: #999;
+}
