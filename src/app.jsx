@@ -14,14 +14,12 @@ function App() {
   return (
     <div className={styles.app}>
     <Header/>
-    {/* <Main/> */}
-    {/* <About/> */}
-    {/* <Skills/> */}
-    
+    <Main/> 
+    <About/>
+    <Skills/>
     <Work/>
-    {/*
     <Contact/>
-    <Footer/> */}
+    <Footer/> 
     <div className={styles.miniMenu}>
       <ul className={styles.menu}>
         <li className={styles.menuLi}><FontAwesomeIcon icon={faGithub} className={styles.icon} /></li>

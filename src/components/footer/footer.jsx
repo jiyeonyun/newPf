@@ -4,8 +4,8 @@ const Footer = (props) => {
     
     return(
         <footer className={styles.footer}>
-            <p className={styles.p}>Coded By Jiyeon Yun</p>
-            <p className={styles.p}>You can see Code Here</p>
+            <p className={styles.p}>Coded By <span className={styles.span}> Jiyeon Yun</span></p>
+            <p className={styles.p}>You can see <a className={styles.span} href="">Code</a> Here</p>
         </footer>
     );
 };
