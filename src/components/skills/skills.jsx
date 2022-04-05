@@ -3,9 +3,12 @@ import styles from './skills.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub,faHtml5,faCss3,faJs,faReact,faBootstrap,faSass,faFigma} from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
+import Header from '../header/header';
 const Skills = (props) => {
 
     return(
+        <>
+        <Header/>
         <section className={styles.section}>
             <h1 className={styles.menutitle}>SKILLS & TOOLS</h1>
             <h2 className={styles.subtitle}>What I Have</h2>
@@ -48,6 +51,7 @@ const Skills = (props) => {
                 </li>
             </ul>
         </section>
+        </>
     );
 };
 

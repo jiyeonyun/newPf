@@ -1,8 +1,11 @@
 import React from 'react';
+import Header from '../header/header';
 import styles from './main.module.css';
 const Main = (props) => {
     
     return(
+        <>
+        <Header/>
         <section className={styles.section}>
             <h2 className={styles.mainTitle}>
                 EVER-GROWING
@@ -23,7 +26,7 @@ const Main = (props) => {
                 이력서 바로가기
             </button>
         </section>
-        
+        </>
     );
 };
 

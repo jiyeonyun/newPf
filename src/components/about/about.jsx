@@ -1,8 +1,11 @@
 import React from 'react';
+import Header from '../header/header';
 import styles from './about.module.css';
 const About = (props) => {
     
     return(
+    <>
+        <Header/>
         <section className={styles.section}>
             <h1 className={styles.menutitle}>About me</h1>
             <div className={styles.imgWrap}>
@@ -28,6 +31,7 @@ const About = (props) => {
                 <dd className={styles.dd}>한국산업인력공단 - 정보처리기사 취득</dd>
             </dl>
         </section>
+    </>
     );
 };
 

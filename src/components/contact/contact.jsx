@@ -3,8 +3,11 @@ import styles from './contact.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub,faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope,faUserPen } from "@fortawesome/free-solid-svg-icons";
+import Header from '../header/header';
 const Contact = (props) => {
     return(
+        <>
+        <Header/>
         <section className={styles.section}>
             <h1 className={styles.menutitle}>CONTACT</h1>
             <h3 className={styles.subtitle}>Contact me on...</h3>
@@ -14,6 +17,7 @@ const Contact = (props) => {
                 <span className={styles.span}><FontAwesomeIcon icon={faGithub} className={styles.icon} />jiyeonyun Github</span>
             </div>
         </section>
+        </>
     );
 };
 

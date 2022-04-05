@@ -7,18 +7,22 @@ import Main from './components/main/main';
 import Skills from './components/skills/skills';
 import Work from './components/work/work';
 import ReactDOM from 'react-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub,faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function App() {
   return (
     <div className={styles.app}>
-    <Header/>
-    <Main/> 
-    <About/>
-    <Skills/>
-    <Work/>
-    <Contact/>
+    <BrowserRouter>
+      <Routes>
+          <Route exact path='/' element={<Main/>}/>
+          <Route path='/ABOUT' element={<About/>}/>
+          <Route path='/SKILL' element={<Skills/>}/>
+          <Route path='/WORKS' element={<Work/>}/>
+          <Route path='/CONTACT' element={<Contact/>}/>
+      </Routes>
+    </BrowserRouter>
     <Footer/> 
     <div className={styles.miniMenu}>
       <ul className={styles.menu}>

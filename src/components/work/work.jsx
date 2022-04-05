@@ -1,8 +1,11 @@
 import React from 'react';
+import Header from '../header/header';
 import styles from './work.module.css';
 const Work = (props) => {
     
     return(
+    <>
+        <Header/>
         <section className={styles.section}>
             <h1 className={styles.menutitle}>Work</h1>
             <h2 className={styles.subtitle}>What I Have Created</h2>
@@ -128,6 +131,7 @@ const Work = (props) => {
                 </div>
             </div>
         </section>
+    </>
     );
 };
 
