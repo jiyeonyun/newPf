@@ -8,10 +8,32 @@
     margin-bottom: 5rem;
 }
 .mainTitle{
+    position: relative;
     text-align: center;
     font-size: 3rem;
     margin: 0;
+    color: transparent;
 }
+.mainTitle::before{
+    content: "EVER⎯⎯GROWING";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    color: black;
+    border-right: 1px solid black ;
+    animation: typing 2s steps(12) 1;
+}
+@keyframes typing{
+    0% {
+    width: 0%;
+    }
+
+    100% {
+    width: 100%;
+    }
+}
+
 .secondTitle{
     text-align: center;
     font-size: 2.5rem;
@@ -21,12 +43,34 @@
     text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
 }
 .imgWrap{
+    position: relative;
     height: 17em;
-    border: 2px solid rgb(63, 63, 63);
+    border: 0.5rem solid rgba(0, 0, 0, 0);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.imgWrap::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 0.5rem solid transparent;
+    border-top: 0.5rem  solid rgba(6, 82, 204, 0.385);
+    border-left: 0.5rem  solid rgba(121, 172, 255, 0.142);
+    border-bottom: 0.5rem  solid rgba(6, 82, 204, 0.385);
+    border-right: 0.5rem  solid rgba(121, 172, 255, 0.142);
+    animation: spin 2s linear;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 .img{
     box-sizing: border-box;
@@ -53,7 +97,9 @@
     transition: all 0.4s;
     font-weight: bold;
 }
+.buttona{
+    color: white;
+}
 .button:hover{
-    color:rgb(6, 82, 204);
     background-color: rgb(208, 208, 208);
 }

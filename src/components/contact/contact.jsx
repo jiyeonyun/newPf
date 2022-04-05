@@ -13,7 +13,7 @@ const Contact = (props) => {
             <h3 className={styles.subtitle}>Contact me on...</h3>
             <div className={styles.contactWrap}>
                 <span className={styles.span}><FontAwesomeIcon icon={faEnvelope} className={styles.icon} />jiyeon5524@naver.com</span>
-                <span className={styles.span}><FontAwesomeIcon icon={faUserPen} className={styles.icon} />resume</span>
+                <span className={styles.span}><FontAwesomeIcon icon={faUserPen} className={styles.icon} />01020557663</span>
                 <span className={styles.span}><FontAwesomeIcon icon={faGithub} className={styles.icon} />jiyeonyun Github</span>
             </div>
         </section>

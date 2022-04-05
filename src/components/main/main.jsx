@@ -8,7 +8,7 @@ const Main = (props) => {
         <Header/>
         <section className={styles.section}>
             <h2 className={styles.mainTitle}>
-                EVER-GROWING
+                EVER⎯⎯GROWING
             </h2>
             <h3 className={styles.secondTitle}>
                 YUN JI YEON'S <br/>
@@ -23,7 +23,7 @@ const Main = (props) => {
                 프론트엔드 개발자 윤지연 입니다.
             </p>
             <button className={styles.button}>
-                이력서 바로가기
+                <a className={styles.buttona}href='./assets/resume.pdf' download="">이력서 PDF</a>
             </button>
         </section>
         </>

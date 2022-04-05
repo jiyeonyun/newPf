@@ -34,6 +34,10 @@
     justify-content: space-between;
     width: 25rem;
     height: 20rem;
+    transition: all 0.5s;
+}
+.workWrap:hover{
+    transform: scale(1.03);
 }
 .imgWrap{
     width: 16rem;
@@ -49,6 +53,8 @@
     box-sizing: border-box;
     padding: 0.3rem;
     border-radius: 0.2rem;
+    display: inline-block;
+    font-size: 0.8rem;
     width: 5rem;
     margin-right: 0.5rem;
     background-color: transparent;
