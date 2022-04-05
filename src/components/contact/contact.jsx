@@ -3,7 +3,7 @@ import styles from './contact.module.css';
 const Contact = (props) => {
     return(
         <section className={styles.section}>
-            <h1 className={styles.mainTitle}>CONTACT</h1>
+            <h1 className={styles.menutitle}>CONTACT</h1>
             <h3 className={styles.subTitle}>Contact me on...</h3>
             <span className={styles.span}>jiyeon5524@naver.com</span>
             <span className={styles.span}>resume</span>

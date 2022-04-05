@@ -48,4 +48,11 @@
     border-radius: 3rem;
     color: white;
     background-color: rgb(6, 82, 204);
+    cursor: pointer;
+    transition: all 0.4s;
+    font-weight: bold;
+}
+.button:hover{
+    color:rgb(6, 82, 204);
+    background-color: rgb(208, 208, 208);
 }

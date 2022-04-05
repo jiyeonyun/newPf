@@ -1,1 +1,26 @@
-
+.app{
+    position: relative;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 32em;
+    right: 3em;
+}
+.menuLi{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0;
+    cursor: pointer;
+}
+.icon{
+    font-size: 1.8rem;
+}
+.icon:hover{
+    color: #999;
+}
