@@ -26,9 +26,9 @@ function App() {
     <Footer/> 
     <div className={styles.miniMenu}>
       <ul className={styles.menu}>
-        <li className={styles.menuLi}><a href="https://github.com/jiyeonyun" target="_blank"><FontAwesomeIcon icon={faGithub} className={styles.icon} /></a></li>
-        <li className={styles.menuLi}><a href="mailto:jiyeon5524@naver.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} className={styles.icon} /></a></li>
-        <li className={styles.menuLi}><a href="https://www.instagram.com/?hl=ko" target="_blank"><FontAwesomeIcon icon={faInstagram} className={styles.icon} /></a></li>
+        <li className={styles.menuLi}><a href="https://github.com/jiyeonyun" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} className={styles.icon} /></a></li>
+        <li className={styles.menuLi}><a href="mailto:jiyeon5524@naver.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faEnvelope} className={styles.icon} /></a></li>
+        <li className={styles.menuLi}><a href="https://www.instagram.com/?hl=ko" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faInstagram} className={styles.icon} /></a></li>
       </ul>
     </div>
     </div>

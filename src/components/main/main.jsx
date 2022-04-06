@@ -23,7 +23,7 @@ const Main = (props) => {
                 프론트엔드 개발자 윤지연 입니다.
             </p>
             <button className={styles.button}>
-                <a className={styles.buttona}href='./assets/resume.pdf' download="">이력서 PDF</a>
+                <a className={styles.buttona} href='./assets/resume.pdf' download="">이력서 PDF</a>
             </button>
         </section>
         </>

@@ -22,8 +22,8 @@ const Work = (props) => {
                             <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
                         </div>
                         <div className={styles.workButton}>
-                            <a href="https://jiyeonyun.github.io/ReactMovie/ " target="_blank" className={styles.button}>Go!</a>
-                            <a href="https://github.com/jiyeonyun/ReactMovie" target="_blank" className={styles.button}>GitHub</a>
+                            <a href="https://jiyeonyun.github.io/ReactMovie/ " target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://github.com/jiyeonyun/ReactMovie" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -39,8 +39,8 @@ const Work = (props) => {
                             <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
                         </div>
                         <div className={styles.workButton}>
-                            <a href="https://jiyeonyun.github.io/mbti_card/" target="_blank" className={styles.button}>Go!</a>
-                            <a href="https://github.com/jiyeonyun/mbti_card" target="_blank" className={styles.button}>GitHub</a>
+                            <a href="https://jiyeonyun.github.io/mbti_card/" target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://github.com/jiyeonyun/mbti_card" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -57,8 +57,8 @@ const Work = (props) => {
                             <span className={styles.workSkill} style={{backgroundColor:'#FF6C37',color:'whitesmoke'}}>#Postman</span>
                         </div>
                         <div className={styles.workButton}>
-                            <a href="https://jiyeonyun.github.io/Youtube_Project/ " target="_blank" className={styles.button}>Go!</a>
-                            <a href="https://github.com/jiyeonyun/Youtube_Project" target="_blank" className={styles.button}>GitHub</a>
+                            <a href="https://jiyeonyun.github.io/Youtube_Project/ " target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://github.com/jiyeonyun/Youtube_Project" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -73,8 +73,8 @@ const Work = (props) => {
                             <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
                         </div>
                         <div className={styles.workButton}>
-                            <a href="https://jiyeonyun.github.io/habitTracker_renewal/ " target="_blank" className={styles.button}>Go!</a>
-                            <a href="https://github.com/jiyeonyun/habitTracker_renewal" target="_blank" className={styles.button}>GitHub</a>
+                            <a href="https://jiyeonyun.github.io/habitTracker_renewal/ " target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://github.com/jiyeonyun/habitTracker_renewal" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -90,8 +90,8 @@ const Work = (props) => {
                             <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
                         </div>
                         <div className={styles.workButton}>
-                            <a href="https://jiyeonyun.github.io/my_phone/ " target="_blank" className={styles.button}>Go!</a>
-                            <a href="https://github.com/jiyeonyun/my_phone" target="_blank" className={styles.button}>GitHub</a>
+                            <a href="https://jiyeonyun.github.io/my_phone/ " target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://github.com/jiyeonyun/my_phone" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -107,8 +107,8 @@ const Work = (props) => {
                             <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
                         </div>
                         <div className={styles.workButton}>
-                            <a href="https://jiyeonyun.github.io/wordle/ " target="_blank" className={styles.button}>Go!</a>
-                            <a href="https://github.com/jiyeonyun/wordle" target="_blank" className={styles.button}>GitHub</a>
+                            <a href="https://jiyeonyun.github.io/wordle/ " target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://github.com/jiyeonyun/wordle" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -124,8 +124,8 @@ const Work = (props) => {
                             <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
                         </div>
                         <div className={styles.workButton}>
-                            <a href="https://jiyeonyun.github.io/carrot_game/" target="_blank" className={styles.button}>Go!</a>
-                            <a href="https://github.com/jiyeonyun/carrot_game" target="_blank" className={styles.button}>GitHub</a>
+                            <a href="https://jiyeonyun.github.io/carrot_game/" target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://github.com/jiyeonyun/carrot_game" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
                         </div>
                     </div>
                 </div>
