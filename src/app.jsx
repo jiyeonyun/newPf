@@ -2,11 +2,9 @@ import styles from './app.module.css';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
-import Header from './components/header/header';
 import Main from './components/main/main';
 import Skills from './components/skills/skills';
 import Work from './components/work/work';
-import ReactDOM from 'react-dom'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub,faInstagram } from "@fortawesome/free-brands-svg-icons";

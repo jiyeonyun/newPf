@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './contact.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub,faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope,faUserPen } from "@fortawesome/free-solid-svg-icons";
 import Header from '../header/header';
 const Contact = (props) => {
