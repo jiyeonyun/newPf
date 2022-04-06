@@ -124,7 +124,7 @@ const Work = (props) => {
                             <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
                         </div>
                         <div className={styles.workButton}>
-                            <a href="" target="_blank" className={styles.button}>Go!</a>
+                            <a href="https://jiyeonyun.github.io/carrot_game/" target="_blank" className={styles.button}>Go!</a>
                             <a href="https://github.com/jiyeonyun/carrot_game" target="_blank" className={styles.button}>GitHub</a>
                         </div>
                     </div>

@@ -14,7 +14,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function App() {
   return (
     <div className={styles.app}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
           <Route exact path='/' element={<Main/>}/>
           <Route path='/ABOUT' element={<About/>}/>
