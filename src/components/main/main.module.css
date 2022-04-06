@@ -44,7 +44,7 @@
 }
 .imgWrap{
     position: relative;
-    height: 17em;
+    height: 300px;
     border: 0.5rem solid rgba(0, 0, 0, 0);
     border-radius: 50%;
     display: flex;
