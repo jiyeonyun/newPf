@@ -46,6 +46,23 @@ const Work = (props) => {
                 </div>
                 <div className={styles.workWrap}>
                     <div className={styles.imgWrap}>
+                        <img className={styles.img} src="./img/cash.png" alt="" />
+                    </div>
+                    <div className={styles.workDes}>
+                        <h4 className={styles.workName}>가계부</h4>
+                        <div className={styles.workSkills}>
+                        <span className={styles.workSkill} style={{backgroundColor:'#61DAFB',color:'black'}}>#React</span>
+                            <span className={styles.workSkill} style={{backgroundColor:'#764ABC',color:'whitesmoke'}}>#Redux</span>
+                            <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
+                        </div>
+                        <div className={styles.workButton}>
+                            <a href="https://jiyeonyun.github.io/carrot_game/" target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://github.com/jiyeonyun/cashmanager" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.workWrap}>
+                    <div className={styles.imgWrap}>
                         <img className={styles.img} src="./img/youtube.png" alt="" />
                     </div>
                     <div className={styles.workDes}>
