@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './skills.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub,faHtml5,faCss3,faJs,faReact,faBootstrap,faSass,faFigma} from "@fortawesome/free-brands-svg-icons";
+import { faGit,faHtml5,faCss3,faJs,faReact,faBootstrap,faSass,faFigma} from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import Header from '../header/header';
 const Skills = (props) => {
@@ -30,8 +30,12 @@ const Skills = (props) => {
                     <span className={styles.span}>React</span>
                 </li>
                 <li className={styles.li}>
-                    <div className={styles.iconWrap}><FontAwesomeIcon icon={faGithub} className={styles.icon} style={{color:'#181717'}} /></div>
-                    <span className={styles.span}>GitHub</span>
+                    <div className={styles.iconWrap}><img src="./img/redux.png" className={styles.img} alt="" /></div>
+                    <span className={styles.span}>Redux</span>
+                </li>
+                <li className={styles.li}>
+                    <div className={styles.iconWrap}><FontAwesomeIcon icon={faGit} className={styles.icon} style={{color:'#181717'}} /></div>
+                    <span className={styles.span}>git</span>
                 </li>
                 <li className={styles.li}>
                     <div className={styles.iconWrap}><FontAwesomeIcon icon={faBootstrap} className={styles.icon} style={{color:'#7952B3'}} /></div>
@@ -40,10 +44,6 @@ const Skills = (props) => {
                 <li className={styles.li}>
                     <div className={styles.iconWrap}><FontAwesomeIcon icon={faSass} className={styles.icon} style={{color:'#CC6699'}} /></div>
                     <span className={styles.span}>Sass</span>
-                </li>
-                <li className={styles.li}>
-                    <div className={styles.iconWrap}><FontAwesomeIcon icon={faCode} className={styles.icon} style={{color:'#007ACC'}} /></div> 
-                    <span className={styles.span}>Visual Studio Code</span>
                 </li>
                 <li className={styles.li}>
                     <div className={styles.iconWrap}><FontAwesomeIcon icon={faFigma} className={styles.icon} style={{color:'#F24E1E'}} /></div>
