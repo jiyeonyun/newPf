@@ -34,6 +34,10 @@ const Skills = (props) => {
                     <span className={styles.span}>Redux</span>
                 </li>
                 <li className={styles.li}>
+                    <div className={styles.iconWrap}><img src="./img/typescriptLogo.svg" className={styles.img} alt="" /></div>
+                    <span className={styles.span}>TypeScript</span>
+                </li>
+                <li className={styles.li}>
                     <div className={styles.iconWrap}><FontAwesomeIcon icon={faGit} className={styles.icon} style={{color:'#181717'}} /></div>
                     <span className={styles.span}>git</span>
                 </li>
