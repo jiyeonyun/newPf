@@ -56,7 +56,7 @@ const Work = (props) => {
                             <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
                         </div>
                         <div className={styles.workButton}>
-                            <a href="https://jiyeonyun.github.io/carrot_game/" target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://jiyeonyun.github.io/cashmanager/ " target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
                             <a href="https://github.com/jiyeonyun/cashmanager" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
                         </div>
                     </div>
