@@ -63,6 +63,24 @@ const Work = (props) => {
                 </div>
                 <div className={styles.workWrap}>
                     <div className={styles.imgWrap}>
+                        <img className={styles.img} src="./img/main.png" alt="" />
+                    </div>
+                    <div className={styles.workDes}>
+                        <h4 className={styles.workName}>칵테일 저장소</h4>
+                        <div className={styles.workSkills}>
+                            <span className={styles.workSkill} style={{backgroundColor:'red',color:'whitesmoke'}}>#cocktail api</span>
+                            <span className={styles.workSkill} style={{backgroundColor:'#61DAFB',color:'black'}}>#React</span>
+                            <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
+                            <span className={styles.workSkill} style={{backgroundColor:'#FF6C37',color:'whitesmoke'}}>#Postman</span>
+                        </div>
+                        <div className={styles.workButton}>
+                            <a href="https://jiyeonyun.github.io/cocktail/ " target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://github.com/jiyeonyun/cocktail" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.workWrap}>
+                    <div className={styles.imgWrap}>
                         <img className={styles.img} src="./img/youtube.png" alt="" />
                     </div>
                     <div className={styles.workDes}>
