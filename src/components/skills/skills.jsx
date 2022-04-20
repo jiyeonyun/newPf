@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './skills.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGit,faHtml5,faCss3,faJs,faReact,faBootstrap,faSass,faFigma} from "@fortawesome/free-brands-svg-icons";
+import { faGit,faHtml5,faCss3,faJs,faReact,faBootstrap,faSass,faFigma,faVuejs} from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import Header from '../header/header';
 const Skills = (props) => {
@@ -34,8 +34,8 @@ const Skills = (props) => {
                     <span className={styles.span}>Redux</span>
                 </li>
                 <li className={styles.li}>
-                    <div className={styles.iconWrap}><img src="./img/typescriptLogo.svg" className={styles.img} alt="" /></div>
-                    <span className={styles.span}>TypeScript</span>
+                    <div className={styles.iconWrap}><FontAwesomeIcon icon={faGit} className={styles.icon} style={{color:'#4FC08D'}} /></div>
+                    <span className={styles.span}>Vue.js</span>
                 </li>
                 <li className={styles.li}>
                     <div className={styles.iconWrap}><FontAwesomeIcon icon={faGit} className={styles.icon} style={{color:'#181717'}} /></div>
