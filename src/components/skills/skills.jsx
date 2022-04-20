@@ -34,7 +34,7 @@ const Skills = (props) => {
                     <span className={styles.span}>Redux</span>
                 </li>
                 <li className={styles.li}>
-                    <div className={styles.iconWrap}><FontAwesomeIcon icon={faGit} className={styles.icon} style={{color:'#4FC08D'}} /></div>
+                    <div className={styles.iconWrap}><FontAwesomeIcon icon={faVuejs} className={styles.icon} style={{color:'#4FC08D'}} /></div>
                     <span className={styles.span}>Vue.js</span>
                 </li>
                 <li className={styles.li}>
