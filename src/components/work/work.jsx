@@ -63,6 +63,22 @@ const Work = (props) => {
                 </div>
                 <div className={styles.workWrap}>
                     <div className={styles.imgWrap}>
+                        <img className={styles.img} src="./img/vue.png" alt="" />
+                    </div>
+                    <div className={styles.workDes}>
+                        <h4 className={styles.workName}>뷰스타그램</h4>
+                        <div className={styles.workSkills}>
+                            <span className={styles.workSkill} style={{backgroundColor:'#4FC08D',color:'whitesmoke'}}>#Vue.js</span>
+                            <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
+                        </div>
+                        <div className={styles.workButton}>
+                            <a href="https://jiyeonyun.github.io/vueStargram/" target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://github.com/jiyeonyun/vueStargram" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.workWrap}>
+                    <div className={styles.imgWrap}>
                         <img className={styles.img} src="./img/main.png" alt="" />
                     </div>
                     <div className={styles.workDes}>
@@ -76,24 +92,6 @@ const Work = (props) => {
                         <div className={styles.workButton}>
                             <a href="https://jiyeonyun.github.io/cocktail/ " target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
                             <a href="https://github.com/jiyeonyun/cocktail" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.workWrap}>
-                    <div className={styles.imgWrap}>
-                        <img className={styles.img} src="./img/youtube.png" alt="" />
-                    </div>
-                    <div className={styles.workDes}>
-                        <h4 className={styles.workName}>유튜브 클론코딩</h4>
-                        <div className={styles.workSkills}>
-                            <span className={styles.workSkill} style={{backgroundColor:'red',color:'whitesmoke'}}>#Youtube api</span>
-                            <span className={styles.workSkill} style={{backgroundColor:'#61DAFB',color:'black'}}>#React</span>
-                            <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
-                            <span className={styles.workSkill} style={{backgroundColor:'#FF6C37',color:'whitesmoke'}}>#Postman</span>
-                        </div>
-                        <div className={styles.workButton}>
-                            <a href="https://jiyeonyun.github.io/Youtube_Project/ " target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
-                            <a href="https://github.com/jiyeonyun/Youtube_Project" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -161,6 +159,24 @@ const Work = (props) => {
                         <div className={styles.workButton}>
                             <a href="https://jiyeonyun.github.io/carrot_game/" target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
                             <a href="https://github.com/jiyeonyun/carrot_game" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.workWrap}>
+                    <div className={styles.imgWrap}>
+                        <img className={styles.img} src="./img/youtube.png" alt="" />
+                    </div>
+                    <div className={styles.workDes}>
+                        <h4 className={styles.workName}>유튜브 클론코딩</h4>
+                        <div className={styles.workSkills}>
+                            <span className={styles.workSkill} style={{backgroundColor:'red',color:'whitesmoke'}}>#Youtube api</span>
+                            <span className={styles.workSkill} style={{backgroundColor:'#61DAFB',color:'black'}}>#React</span>
+                            <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
+                            <span className={styles.workSkill} style={{backgroundColor:'#FF6C37',color:'whitesmoke'}}>#Postman</span>
+                        </div>
+                        <div className={styles.workButton}>
+                            <a href="https://jiyeonyun.github.io/Youtube_Project/ " target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://github.com/jiyeonyun/Youtube_Project" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
                         </div>
                     </div>
                 </div>
