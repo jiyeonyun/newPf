@@ -65,22 +65,6 @@ const Work = (props) => {
                 </div>
                 <div className={styles.workWrap}>
                     <div className={styles.imgWrap}>
-                        <img className={styles.img} src="./img/vue.png" alt="" />
-                    </div>
-                    <div className={styles.workDes}>
-                        <h4 className={styles.workName}>뷰스타그램</h4>
-                        <div className={styles.workSkills}>
-                            <span className={styles.workSkill} style={{backgroundColor:'#4FC08D',color:'whitesmoke'}}>#Vue.js</span>
-                            <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
-                        </div>
-                        <div className={styles.workButton}>
-                            <a href="https://jiyeonyun.github.io/vueStargram/" target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
-                            <a href="https://github.com/jiyeonyun/vueStargram" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.workWrap}>
-                    <div className={styles.imgWrap}>
                         <img className={styles.img} src="./img/main.png" alt="" />
                     </div>
                     <div className={styles.workDes}>
@@ -94,6 +78,22 @@ const Work = (props) => {
                         <div className={styles.workButton}>
                             <a href="https://jiyeonyun.github.io/cocktail/ " target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
                             <a href="https://github.com/jiyeonyun/cocktail" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.workWrap}>
+                    <div className={styles.imgWrap}>
+                        <img className={styles.img} src="./img/vue.png" alt="" />
+                    </div>
+                    <div className={styles.workDes}>
+                        <h4 className={styles.workName}>뷰스타그램</h4>
+                        <div className={styles.workSkills}>
+                            <span className={styles.workSkill} style={{backgroundColor:'#4FC08D',color:'whitesmoke'}}>#Vue.js</span>
+                            <span className={styles.workSkill} style={{backgroundColor:'#1572B6',color:'whitesmoke'}}>#Css</span>
+                        </div>
+                        <div className={styles.workButton}>
+                            <a href="https://jiyeonyun.github.io/vueStargram/" target="_blank" rel="noopener noreferrer" className={styles.button}>Go!</a>
+                            <a href="https://github.com/jiyeonyun/vueStargram" target="_blank" rel="noopener noreferrer" className={styles.button}>GitHub</a>
                         </div>
                     </div>
                 </div>
